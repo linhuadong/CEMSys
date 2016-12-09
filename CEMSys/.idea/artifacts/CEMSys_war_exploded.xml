@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="CEMSys:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/CEMSys_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CEMSys" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="SSH" module-name="CEMSys" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="CEMSys/web/Web" />
+    </root>
+  </artifact>
+</component>
